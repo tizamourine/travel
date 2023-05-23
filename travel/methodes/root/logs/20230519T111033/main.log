@@ -1,0 +1,13 @@
+2023-05-19 11:10:34.036 [info] [SharedProcess] using utility process
+2023-05-19 11:10:34.202 [info] update#setState idle
+2023-05-19 11:10:35.675 [info] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2023-05-19 11:10:35.683 [info] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2023-05-19 11:10:35.694 [info] [UtilityProcess type: shared-process, pid: 6162]: successfully created
+2023-05-19 11:10:35.695 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 6163]: successfully created
+2023-05-19 11:10:35.843 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-05-19 11:10:35.883 [info] [UtilityProcess id: 1, type: extensionHost, pid: 6183]: successfully created
+2023-05-19 11:10:50.606 [info] [UtilityProcess id: 1, type: extensionHost, pid: 6183]: received exit event with code 0
+2023-05-19 11:10:50.606 [info] Extension host with pid 6183 exited with code: 0, signal: unknown.
+2023-05-19 11:10:50.617 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 6163]: attempting to kill the process...
+2023-05-19 11:10:50.618 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 6163]: successfully killed the process
+2023-05-19 11:10:50.634 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 6163]: received exit event with code 0

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/0e73c0194a.js" crossorigin="anonymous"></script>
+    <style>
+      .payment {
+        width: 900px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.settings-container {
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      
+    }
+    .settings-group {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;}
+.payment h2 {
+  margin-top: 0;
+}
+
+.payment form {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment label {
+  margin-bottom: 10px;
+}
+
+.payment input, .payment select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.payment button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #008CBA;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.payment button:hover {
+  background-color: #005F6B;
+}
+
+a {
+  text-decoration: none;
+  color:#000;
+}
+ul, ol {
+  list-style: none;
+}
+    </style>
+</head>
+<body>
+  <div class="settings-group">
+    <div class="settings-container">
+      <div>
+        <ol>
+          <div class="settings-container">
+          <li><a href="infopers.html"><i class="fas fa-user-circle"></i>Informations personnelles</a></li>
+          </div>
+          <div class="settings-container">
+          <li><a href="pref.html"><i class="fas fa-cog"></i>Préférences</a></li>
+          </div>
+          <div class="settings-container">
+          <li><a href="securite.html"><i class="fas fa-lock"></i>Sécurité</a></li>
+          </div>
+          <div class="settings-container">
+          <li><a href="paiement.html"><i class="fas fa-credit-card"></i>Paiement</a></li>
+          </div>
+        </ol>
+      </div>
+      </div>
+  <div class="settings-container">
+    <h2>Ajouter un moyen de paiement</h2>
+    <div class="payment">
+       
+        <form>
+          <label for="cardNumber">Numéro de carte de crédit :</label>
+          <input type="text" id="cardNumber" name="cardNumber" required>
+          <label for="expirationDate">Date d'expiration :</label>
+          <input type="text" id="expirationDate" name="expirationDate" required>
+          <label for="securityCode">Code de sécurité :</label>
+          <input type="text" id="securityCode" name="securityCode" required>
+          <button type="submit">Ajouter</button>
+        </form>
+      </div>
+      <h2>Supprimer un moyen de paiement</h2>
+      <div class="payment">
+       
+        <form>
+          <label for="cardList">Choisir un moyen de paiement :</label>
+          <select id="cardList" name="cardList" required>
+            <option value="">-- Sélectionner --</option>
+            <option value="card1">**** **** **** 1234</option>
+            <option value="card2">**** **** **** 5678</option>
+            <option value="card3">**** **** **** 9012</option>
+          </select>
+          <button type="submit">Supprimer</button>
+        </form>
+      </div>
+  </div>
+      
+      </div>
+</body>
+</html>

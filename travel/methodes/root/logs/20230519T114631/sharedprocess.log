@@ -1,0 +1,2 @@
+2023-05-19 12:03:03.129 [error] [uncaught exception in sharedProcess]: Une erreur système s'est produite (getaddrinfo ENOTFOUND mobile.events.data.microsoft.com): Error: getaddrinfo ENOTFOUND mobile.events.data.microsoft.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)

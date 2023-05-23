@@ -1,0 +1,23 @@
+#logo{
+    position: relative;
+    left:35%;
+  }
+.signup-content {
+    width: 50%;
+    margin-right: 470px;
+    background: rgba(77, 177, 177, 0.75);
+    float: right; 
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+.signup-content .h2{
+    text-align: center;
+}

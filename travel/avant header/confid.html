@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f5f5f5;
+                padding: 20px;
+            }
+    
+            h1 {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+    
+            form {
+                background-color: #fff;
+                border: 1px solid #ccc;
+                padding: 20px;
+                max-width: 500px;
+                margin: 0 auto;
+            }
+    
+            label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+    
+            input[type="text"],
+            input[type="email"],
+            select {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                box-sizing: border-box;
+                font-size: 16px;
+            }
+    
+            input[type="checkbox"] {
+                margin-right: 10px;
+            }
+    
+            button {
+                background-color: #0099ff;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 3px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+    
+            button:hover {
+                background-color: #007acc;
+            }
+    
+            .success {
+                color: green;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+    
+            .error {
+                color: red;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Confidentialité</h1>
+        <form>
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom complet">
+    
+            <label for="email">Adresse e-mail</label>
+            <input type="email" id="email" name="email" placeholder="Votre adresse e-mail">
+    
+            <label for="data-usage">Contrôle de l'utilisation de mes données</label>
+            <p>
+                <input type="checkbox" id="data-usage" name="data-usage">
+                <label for="data-usage">Je souhaite contrôler l'utilisation de mes données personnelles</label>
+            </p>
+    
+            <label for="data-deletion">Droit à l'oubli</label>
+            <p>
+                <input type="checkbox" id="data-deletion" name="data-deletion">
+                <label for="data-deletion">Je souhaite exercer mon droit à l'oubli</label>
+            </p>
+    
+            <label for="data-access">Droit d'accès à mes données personnelles</label>
+            <p>
+                <input type="checkbox" id="data-access" name="data-access">
+                <label for="data-access">Je souhaite exercer mon droit d'accès à mes données personnelles</label>
+            </p>
+    
+            <button type="submit">Enregistrer les modifications</button>
+    
+            <div class="success">Vos modifications ont été enregistrées avec succès.</div>
+            <div class="error">Une erreur est survenue. Veuillez réessayer ultérieurement.</div>
+        </form>
+    </body>
+    </html>
+    

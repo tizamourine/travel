@@ -1,0 +1,12 @@
+2023-05-20 09:30:49.254 [error] electron #1: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2023-05-20 09:30:50.022 [error] electron #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710 - error undefined net::ERR_NAME_NOT_RESOLVED
+2023-05-20 09:30:51.152 [error] browser #1: https://vscodeexperiments.azureedge.net/experiments/vscode-experiments.json - error GET XHR failed
+2023-05-20 09:31:00.483 [error] browser #2: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST XHR failed
+2023-05-20 09:31:17.103 [error] electron #3: https://update.code.visualstudio.com/api/update/linux-x64/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710 - error undefined net::ERR_NAME_NOT_RESOLVED
+2023-05-20 09:36:00.268 [error] electron #4: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2023-05-20 09:41:10.344 [error] electron #5: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2023-05-20 09:46:20.378 [error] electron #6: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2023-05-20 09:51:30.412 [error] electron #7: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2023-05-20 09:56:40.457 [error] electron #8: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2023-05-20 10:01:50.499 [error] electron #9: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2023-05-20 10:07:00.534 [error] electron #10: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED

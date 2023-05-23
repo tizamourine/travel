@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/0e73c0194a.js" crossorigin="anonymous"></script>
+    <style>
+        .preferences {
+  margin: 0 auto;
+width: 900px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+ 
+}
+.settings-container {
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      
+    }
+    .settings-group {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;}
+
+.preferences h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.preferences label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.preferences select, .preferences input[type="range"] {
+  margin-bottom: 15px;
+}
+
+.preferences input[type="submit"] {
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.preferences input[type="submit"]:hover {
+  background-color: #004eaa;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul, ol {
+  list-style: none;
+}
+
+    </style>
+</head>
+<body>
+  <div class="settings-group">
+    <div class="settings-container">
+      <div>
+        <ol>
+          <div class="settings-container">
+          <li><a href="infopers.html"><i class="fas fa-user-circle"></i>Informations personnelles</a></li>
+          </div>
+          <div class="settings-container">
+          <li><a href="pref.html"><i class="fas fa-cog"></i>Préférences</a></li>
+          </div>
+          <div class="settings-container">
+          <li><a href="securite.html"><i class="fas fa-lock"></i>Sécurité</a></li>
+          </div>
+          <div class="settings-container">
+          <li><a href="paiement.html"><i class="fas fa-credit-card"></i>Paiement</a></li>
+          </div>
+        </ol>
+      </div>
+      </div>
+     
+  <div class="settings-container">
+    <h2>Préférences</h2>
+    <div class="preferences">
+        
+        <form>
+          <fieldset>
+            <legend>Langue</legend>
+            <label for="langue">Langue:</label>
+            <select id="langue">
+              <option value="fr">Français</option>
+              <option value="en">Arabe</option>
+              <option value="es">Anglais</option>
+            </select>
+          </fieldset>
+      
+          <fieldset>
+            <legend>Devise</legend>
+            <label for="devise">Devise:</label>
+            <select id="devise">
+              <option value="EUR">DA</option>
+              <option value="USD">EUR</option>
+              <option value="GBP">USD</option>
+            </select>
+          </fieldset>
+      
+          <fieldset>
+            <legend>Personnalisation de l'interface</legend>  
+            <label for="contraste">Contraste:</label>
+            <select id="contraste">
+              <option value="normal">Normal</option>
+              <option value="élevé">Élevé</option>
+            </select>
+      
+            <label for="navigation">Navigation:</label>
+            <select id="navigation">
+              <option value="tabulation">Tabulation</option>
+              <option value="raccourcis">Raccourcis clavier</option>
+            </select>
+      
+            <label for="couleurs">Couleurs:</label>
+            <select id="couleurs">
+              <option value="clair">Clair</option>
+              <option value="sombre">Sombre</option>
+            </select>
+          </fieldset>
+          
+          <input type="submit" value="Enregistrer">
+        </form>
+      </div>
+      </div>
+     
+        </div>
+      
+</body>
+</html>

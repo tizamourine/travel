@@ -1,0 +1,22 @@
+2023-05-18 10:23:08.130 [info] [SharedProcess] using utility process
+2023-05-18 10:23:08.266 [info] update#setState idle
+2023-05-18 10:23:10.529 [info] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2023-05-18 10:23:10.542 [info] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2023-05-18 10:23:10.552 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-05-18 10:23:10.593 [info] [UtilityProcess type: shared-process, pid: 2807]: successfully created
+2023-05-18 10:23:10.594 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 2808]: successfully created
+2023-05-18 10:23:10.597 [info] [UtilityProcess id: 1, type: extensionHost, pid: 2814]: successfully created
+2023-05-18 10:23:12.662 [error] update#isLatestVersion(): failed to check for updates
+2023-05-18 10:23:12.662 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:105:7047)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-05-18 10:23:38.268 [info] update#setState checking for updates
+2023-05-18 10:23:38.275 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:105:7047)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-05-18 10:23:38.276 [info] update#setState idle
+2023-05-18 10:58:03.753 [info] [UtilityProcess id: 1, type: extensionHost, pid: 2814]: received exit event with code 0
+2023-05-18 10:58:03.753 [info] Extension host with pid 2814 exited with code: 0, signal: unknown.
+2023-05-18 10:58:03.766 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 2808]: attempting to kill the process...
+2023-05-18 10:58:03.767 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 2808]: successfully killed the process
+2023-05-18 10:58:03.777 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 2808]: received exit event with code 0

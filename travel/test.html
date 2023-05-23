@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple de Panel Gmail</title>
+  <style>
+    .panel {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: white;
+      border: 1px solid #ccc;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: none;
+      width: 350px;
+      max-height: 450px;
+      overflow-y: auto;
+      z-index: 1000;
+      padding: 15px;
+    }
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background-color: #45a049;
+    }
+    .close {
+      float: right;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Exemple de Panel Gmail</h1>
+  <button id="newMessageBtn" class="btn">Nouveau message</button>
+  <div id="messagePanel" class="panel">
+    <h2>Nouveau message <span class="close" id="closeBtn">&times;</span></h2>
+    <!-- Ici, ajoutez les champs et boutons nécessaires pour votre formulaire de message -->
+    <!-- Exemple : champ d'adresse e-mail, champ de sujet, champ de contenu, etc. -->
+  </div>
+  <script>
+    document.getElementById("newMessageBtn").addEventListener("click", function() {
+  var panel = document.getElementById("messagePanel");
+  panel.style.display = "block"; // Afficher le panel
+});
+
+document.getElementById("closeBtn").addEventListener("click", function() {
+  var panel = document.getElementById("messagePanel");
+  panel.style.display = "none"; // Masquer le panel
+});
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.message-btn {
+  position: relative;
+  background-color: lightblue;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%; /* Pour rendre le badge circulaire */
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: bold;
+  min-width: 16px;
+  text-align: center;
+}

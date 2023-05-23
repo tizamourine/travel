@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .notification-settings {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.notification-settings h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.notification-settings h3 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.notification-settings label {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.notification-group {
+  margin-top: 15px;
+}
+
+.notification-group input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  background-color: #0072c6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #005eaa;
+  cursor: pointer;
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+</style>
+</head>
+<body>
+    <div class="notification-settings">
+  <h2>Notifications par e-mail</h2>
+  <form>
+    <h3>Choisissez les notifications que vous souhaitez recevoir :</h3>
+    <div class="notification-group">
+      <input type="checkbox" id="new-booking" name="new-booking" checked>
+      <label for="new-booking">Nouvelle réservation</label>
+    </div>
+    <div class="notification-group">
+      <input type="checkbox" id="flight-updates" name="flight-updates" checked>
+      <label for="flight-updates">Mises à jour du vol</label>
+    </div>
+    <div class="notification-group">
+      <input type="checkbox" id="promotions" name="promotions">
+      <label for="promotions">Promotions et offres spéciales</label>
+    </div>
+    <div class="notification-group">
+      <input type="checkbox" id="newsletter" name="newsletter">
+      <label for="newsletter">Newsletter</label>
+    </div>
+    <button type="submit">Enregistrer les modifications</button>
+  </form>
+  <hr>
+  <h3>Désabonnement</h3>
+  <p>Pour vous désabonner de toutes les notifications, veuillez cliquer sur le lien de désabonnement dans un e-mail reçu ou contacter notre service client.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+2023-05-21 11:34:48.846 [info] Extension host with pid 5859 started
+2023-05-21 11:34:48.986 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-21 11:34:48.988 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2023-05-21 11:34:50.070 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-05-21 11:34:50.149 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-21 11:34:50.166 [info] Eager extensions activated
+2023-05-21 11:34:50.170 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-21 11:34:50.171 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-21 11:34:50.350 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-05-21 11:34:50.498 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-05-21 11:34:57.727 [info] Extension host terminating: renderer closed the MessagePort
+2023-05-21 11:34:57.736 [info] Extension host with pid 5859 exiting with code 0
